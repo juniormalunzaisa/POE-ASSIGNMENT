@@ -46,7 +46,7 @@ public class MainUser {
             return;
         }
 
-        // === PART 3: Messaging ===
+        // PART 3
         try {
             String recipient = JOptionPane.showInputDialog("Enter recipient number (e.g., +27831234567):");
             String messageContent = JOptionPane.showInputDialog("Enter your message (max 250 characters):");
